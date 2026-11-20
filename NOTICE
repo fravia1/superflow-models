@@ -1,0 +1,8 @@
+Superflow cleanup model v4
+Copyright 2026 the Superflow authors.
+
+This model is a modified version of Qwen3.5-2B (Copyright Alibaba Cloud), licensed under the Apache
+License, Version 2.0 (see LICENSE).
+
+Modifications: a LoRA adapter (rank 16, 2 epochs) was trained on dictation cleanup pairs, merged into the
+base weights, and the result quantised to GGUF Q4_K_M (llama.cpp). No other changes.
